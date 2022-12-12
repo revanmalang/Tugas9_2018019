@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Restoran Makanan</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="deskription_menu">Makanan yang cocok disantap bersama pasangan</string>
+    <string name="price">Harga</string>
+    <string name="harga">Rp. 25.000 </string>
+
+    <!--    Recycler View-->
+    <string-array name="makanan">
+        <item>Burger</item>
+        <item>Kentang</item>
+        <item>Miunuman</item>
+    </string-array>
+    <string-array name="star">
+        <item>4.5</item>
+        <item>4.7</item>
+        <item>4.4</item>
+    </string-array>
+    <string-array name="deskripsi">
+        <item>Rp. 35.000</item>
+        <item>Rp. 25.000</item>
+        <item>Rp. 20.000</item>
+    </string-array>
+</resources>

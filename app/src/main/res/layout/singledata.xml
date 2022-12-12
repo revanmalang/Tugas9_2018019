@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="130dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="2dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="8dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageButton
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/flowmenu"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_baseline_more_vert_24"
+            android:layout_alignParentTop="true"/>
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/viewavatar"
+            android:src="@drawable/ic_launcher_background"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/viewavatar"
+            android:text="Karya Seni"
+            android:id="@+id/txt_name"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_toRightOf="@+id/viewavatar"
+            android:layout_alignTop="@+id/txt_name"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/linear"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="left"
+                app:srcCompat="@drawable/ic_baseline_star_rate_24" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/viewavatar"
+                android:text="Karya Seni"
+                android:id="@+id/txt_star"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/viewavatar"
+            android:text="Karya Seni"
+            android:layout_alignTop="@+id/linear"
+            android:id="@+id/txt_price"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
